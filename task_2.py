@@ -8,12 +8,12 @@ class Movies:
 class Comedy(Movies):        
     def add_movie(self, movie):
         super().add_movie(movie)
-        return f'Комедии: {self.movies}'
+        return f'Комедии: {movie}'
 
 class Drama(Movies):
     def add_movie(self, movie):
         super().add_movie(movie)
-        return f'Драма: {self.movies}'
+        return f'Драма: {movie}'
     
 comedy = Comedy()
 drama = Drama()
